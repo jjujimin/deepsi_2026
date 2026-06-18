@@ -1,0 +1,5 @@
+Logging to /home/dgx2/Desktop/Fall_detection_with_multi_modal_and_transfer_feature_to_mono/student/logs/distill_20260614_154626.log
+Using cpu device
+Teacher checkpoint: /home/dgx2/Desktop/Fall_detection_with_multi_modal_and_transfer_feature_to_mono/multi_modal/model.pth
+Train features: /home/dgx2/Desktop/Fall_detection_with_multi_modal_and_transfer_feature_to_mono/data/cache/vision_mobilenetv4_conv_medium_160/Training
+Validation features: /home/dgx2/Desktop/Fall_detection_with_multi_modal_and_transfer_feature_to_mono/data/cache/vision_mobilenetv4_conv_medium_160/Validation

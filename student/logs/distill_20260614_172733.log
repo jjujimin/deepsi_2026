@@ -1,0 +1,60 @@
+Logging to /home/dgx2/Desktop/Fall_detection_with_multi_modal_and_transfer_feature_to_mono/student/logs/distill_20260614_172733.log
+Using cuda device
+Teacher checkpoint: multi_modal/model.pth
+Train features: /home/dgx2/Desktop/Fall_detection_with_multi_modal_and_transfer_feature_to_mono/data/cache/vision_mobilenetv4_conv_medium_160/Training
+Validation features: /home/dgx2/Desktop/Fall_detection_with_multi_modal_and_transfer_feature_to_mono/data/cache/vision_mobilenetv4_conv_medium_160/Validation
+Epoch [1/10], Loss: 0.2908, Hard: 0.2608, Soft: 1.1619, Hidden: 0.6789, Accuracy: 89.47%, F1 Score: 0.9311
+Validation Loss: 0.2982, Accuracy: 87.63%, F1 Score: 0.9107
+Confusion Matrix:
+ [[ 559    9]
+ [ 272 1432]]
+Best student saved to /home/dgx2/Desktop/Fall_detection_with_multi_modal_and_transfer_feature_to_mono/student/checkpoints/student_vision_distilled.pth (F1: 0.9107)
+Epoch [2/10], Loss: 0.1556, Hard: 0.1390, Soft: 0.6775, Hidden: 0.2991, Accuracy: 94.95%, F1 Score: 0.9664
+Validation Loss: 0.1136, Accuracy: 95.55%, F1 Score: 0.9704
+Confusion Matrix:
+ [[ 517   51]
+ [  50 1654]]
+Best student saved to /home/dgx2/Desktop/Fall_detection_with_multi_modal_and_transfer_feature_to_mono/student/checkpoints/student_vision_distilled.pth (F1: 0.9704)
+Epoch [3/10], Loss: 0.1226, Hard: 0.1091, Soft: 0.5538, Hidden: 0.2450, Accuracy: 96.14%, F1 Score: 0.9743
+Validation Loss: 0.1387, Accuracy: 95.20%, F1 Score: 0.9677
+Confusion Matrix:
+ [[ 528   40]
+ [  69 1635]]
+Epoch [4/10], Loss: 0.0970, Hard: 0.0854, Soft: 0.4712, Hidden: 0.2172, Accuracy: 97.22%, F1 Score: 0.9815
+Validation Loss: 0.1256, Accuracy: 95.91%, F1 Score: 0.9726
+Confusion Matrix:
+ [[ 526   42]
+ [  51 1653]]
+Best student saved to /home/dgx2/Desktop/Fall_detection_with_multi_modal_and_transfer_feature_to_mono/student/checkpoints/student_vision_distilled.pth (F1: 0.9726)
+Epoch [5/10], Loss: 0.0825, Hard: 0.0722, Soft: 0.4203, Hidden: 0.1963, Accuracy: 97.66%, F1 Score: 0.9844
+Validation Loss: 0.1562, Accuracy: 95.07%, F1 Score: 0.9677
+Confusion Matrix:
+ [[ 483   85]
+ [  27 1677]]
+Epoch [6/10], Loss: 0.0712, Hard: 0.0617, Soft: 0.3778, Hidden: 0.1897, Accuracy: 98.01%, F1 Score: 0.9867
+Validation Loss: 0.1184, Accuracy: 96.52%, F1 Score: 0.9768
+Confusion Matrix:
+ [[ 528   40]
+ [  39 1665]]
+Best student saved to /home/dgx2/Desktop/Fall_detection_with_multi_modal_and_transfer_feature_to_mono/student/checkpoints/student_vision_distilled.pth (F1: 0.9768)
+Epoch [7/10], Loss: 0.0588, Hard: 0.0503, Soft: 0.3368, Hidden: 0.1758, Accuracy: 98.42%, F1 Score: 0.9895
+Validation Loss: 0.1480, Accuracy: 96.30%, F1 Score: 0.9754
+Confusion Matrix:
+ [[ 524   44]
+ [  40 1664]]
+Epoch [8/10], Loss: 0.0477, Hard: 0.0400, Soft: 0.3030, Hidden: 0.1636, Accuracy: 98.79%, F1 Score: 0.9919
+Validation Loss: 0.1403, Accuracy: 96.17%, F1 Score: 0.9740
+Confusion Matrix:
+ [[ 553   15]
+ [  72 1632]]
+Epoch [9/10], Loss: 0.0407, Hard: 0.0334, Soft: 0.2865, Hidden: 0.1598, Accuracy: 99.02%, F1 Score: 0.9935
+Validation Loss: 0.1823, Accuracy: 96.30%, F1 Score: 0.9755
+Confusion Matrix:
+ [[ 514   54]
+ [  30 1674]]
+Epoch [10/10], Loss: 0.0247, Hard: 0.0184, Soft: 0.2427, Hidden: 0.1459, Accuracy: 99.50%, F1 Score: 0.9967
+Validation Loss: 0.1636, Accuracy: 96.83%, F1 Score: 0.9790
+Confusion Matrix:
+ [[ 522   46]
+ [  26 1678]]
+Best student saved to /home/dgx2/Desktop/Fall_detection_with_multi_modal_and_transfer_feature_to_mono/student/checkpoints/student_vision_distilled.pth (F1: 0.9790)

@@ -1,0 +1,66 @@
+Logging to /home/dgx2/Desktop/Fall_detection_with_multi_modal_and_transfer_feature_to_mono/multi_modal/logs/train_20260614_153552.log
+Epoch [1/10], Loss: 0.2774, Accuracy: 88.35%, F1 Score: 0.9251
+Modality Dropout both=511, vision_only=24, sensor_only=32
+Validation Loss: 0.0993, Accuracy: 96.39%, F1 Score: 0.9759
+Confusion Matrix:
+ [[ 529   39]
+ [  43 1661]]
+Best model saved to ./model.pth (F1: 0.9759)
+Epoch [2/10], Loss: 0.1208, Accuracy: 95.56%, F1 Score: 0.9704
+Modality Dropout both=505, vision_only=30, sensor_only=32
+Validation Loss: 0.0910, Accuracy: 97.10%, F1 Score: 0.9805
+Confusion Matrix:
+ [[ 550   18]
+ [  48 1656]]
+Best model saved to ./model.pth (F1: 0.9805)
+Epoch [3/10], Loss: 0.0824, Accuracy: 96.95%, F1 Score: 0.9796
+Modality Dropout both=523, vision_only=23, sensor_only=21
+Validation Loss: 0.0690, Accuracy: 97.98%, F1 Score: 0.9866
+Confusion Matrix:
+ [[ 537   31]
+ [  15 1689]]
+Best model saved to ./model.pth (F1: 0.9866)
+Epoch [4/10], Loss: 0.0703, Accuracy: 97.67%, F1 Score: 0.9844
+Modality Dropout both=500, vision_only=37, sensor_only=30
+Validation Loss: 0.1045, Accuracy: 97.05%, F1 Score: 0.9800
+Confusion Matrix:
+ [[ 560    8]
+ [  59 1645]]
+Epoch [5/10], Loss: 0.0571, Accuracy: 98.07%, F1 Score: 0.9871
+Modality Dropout both=517, vision_only=13, sensor_only=37
+Validation Loss: 0.0627, Accuracy: 98.06%, F1 Score: 0.9871
+Confusion Matrix:
+ [[ 551   17]
+ [  27 1677]]
+Best model saved to ./model.pth (F1: 0.9871)
+Epoch [6/10], Loss: 0.0564, Accuracy: 98.11%, F1 Score: 0.9874
+Modality Dropout both=507, vision_only=32, sensor_only=28
+Validation Loss: 0.0785, Accuracy: 97.76%, F1 Score: 0.9849
+Confusion Matrix:
+ [[ 553   15]
+ [  36 1668]]
+Epoch [7/10], Loss: 0.0501, Accuracy: 98.42%, F1 Score: 0.9894
+Modality Dropout both=509, vision_only=30, sensor_only=28
+Validation Loss: 0.0876, Accuracy: 97.89%, F1 Score: 0.9858
+Confusion Matrix:
+ [[ 556   12]
+ [  36 1668]]
+Epoch [8/10], Loss: 0.0415, Accuracy: 98.64%, F1 Score: 0.9909
+Modality Dropout both=524, vision_only=19, sensor_only=24
+Validation Loss: 0.0871, Accuracy: 97.84%, F1 Score: 0.9856
+Confusion Matrix:
+ [[ 548   20]
+ [  29 1675]]
+Epoch [9/10], Loss: 0.0259, Accuracy: 99.17%, F1 Score: 0.9944
+Modality Dropout both=514, vision_only=28, sensor_only=25
+Validation Loss: 0.0661, Accuracy: 98.59%, F1 Score: 0.9906
+Confusion Matrix:
+ [[ 547   21]
+ [  11 1693]]
+Best model saved to ./model.pth (F1: 0.9906)
+Epoch [10/10], Loss: 0.0255, Accuracy: 99.15%, F1 Score: 0.9943
+Modality Dropout both=512, vision_only=28, sensor_only=27
+Validation Loss: 0.0747, Accuracy: 98.55%, F1 Score: 0.9904
+Confusion Matrix:
+ [[ 545   23]
+ [  10 1694]]
