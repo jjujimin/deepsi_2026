@@ -9,4 +9,4 @@ https://github.com/jjujimin/Fall_detection_with_multi_modal_and_transfer_feature
 
 The project extends and refines the previous work with improvements in the model design and implementation.
 
-📄 **Presentation Slides:** [딥시 기말.pdf](./딥시%20기말.pdf)
+📄 **Presentation Slides:** [Presentation.pdf](./Presentation.pdf)
